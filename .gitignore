@@ -1,0 +1,13 @@
+# Security Bypasses
+mission_python
+clean_curl
+ext.xml
+
+# Environment & Config
+worm_env/
+*.conf
+.DS_Store
+
+# Logs & Data
+*.txt
+*.log
