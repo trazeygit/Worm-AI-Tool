@@ -4,7 +4,7 @@ import sys
 
 def check_tunnel():
     # CONFIGURATION
-    REAL_IP = "149.22.82.32"  # Your Toronto IP
+    REAL_IP = "0.0.0.0"  # Replace with your vpn ip
     CHECK_URL = "http://ifconfig.me/ip"
     TIMEOUT = 10
     
