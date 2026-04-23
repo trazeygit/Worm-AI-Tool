@@ -1,5 +1,13 @@
 # Worm-AI-Tool
-.  💀 SHΔDØW WORM-AI: Deployment Guide This repository contains the SHΔDØW WORM-AI framework, a specialized tool for network reconnaissance and vulnerability assessment. 
+Install git clone https://github.com/trazeygit/Worm-AI-Tool.git
+cd Worm-AI-Tool.
+# Create and activate a virtual environment
+python3 -m venv worm_env
+source worm_env/bin/activate
+
+# Install the "Worm" requirements
+pip install -r requirements.txt
+💀 SHΔDØW WORM-AI: Deployment Guide This repository contains the SHΔDØW WORM-AI framework, a specialized tool for network reconnaissance and vulnerability assessment. 
 
 🛠️ Step 1: Binary De-Protection (The macOS Bypass)
 macOS "Hardened Runtime" prevents library injection into system binaries. We must create an "unlocked" Python binary to allow proxychains4 to hook the network stack.
